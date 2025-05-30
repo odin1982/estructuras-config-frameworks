@@ -6,12 +6,12 @@
 	<persistence-unit name="otrareunionmas" transaction-type="RESOURCE_LOCAL">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<properties>
-			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/otrareunionmas?useSSL=false&amp;serverTimezone=America/Mexico_City&amp;allowPublicKeyRetrieval=true" />
-			<property name="javax.persistence.jdbc.user" value="root" />
-			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
-			<property name="javax.persistence.jdbc.password" value="barcelona8" />
-			<property name="javax.persistence.schema-generation.database.action" value="update" />
-			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
+			<property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/otrareunionmas?useSSL=false&amp;serverTimezone=America/Mexico_City&amp;allowPublicKeyRetrieval=true" />
+			<property name="jakarta.persistence.jdbc.user" value="root" />
+			<property name="jakarta.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+			<property name="jakarta.persistence.jdbc.password" value="barcelona8" />
+			<property name="jakarta.persistence.schema-generation.database.action" value="update" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/><!-- No se necesita, se puede quitar -->
 		</properties>
 	</persistence-unit>
 </persistence>
